@@ -20,5 +20,5 @@
     }
   },
 
-  "permissions": ["tabs", "cookies", "contextualIdentities", "storage"]
+  "permissions": ["tabs", "cookies", "contextualIdentities", "storage", "<all_urls>"]
 }

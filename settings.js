@@ -42,6 +42,7 @@ function setRuleTable() {
         let checkbox = document.createElement("input");
         checkbox.type = "checkbox";
         checkbox.checked = rule.keepCookies;
+        checkbox.disabled = "disabled";
         keepCell.appendChild(checkbox);
 
         let button = document.createElement("button");

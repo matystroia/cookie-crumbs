@@ -1,0 +1,24 @@
+{
+
+  "manifest_version": 2,
+  "name": "CookieCrumbs",
+  "version": "0.7",
+
+  "description": "Assigns containers to tabs based on user defined rules.",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "options_ui": {
+    "page": "settings.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "crumbs2@example.org"
+    }
+  },
+
+  "permissions": ["tabs", "cookies", "contextualIdentities", "storage"]
+}
